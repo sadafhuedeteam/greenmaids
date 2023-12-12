@@ -1,0 +1,355 @@
+/* ====home page=== */
+
+.home-banner {
+  background: url(/assets/img/banner-bg.png);
+  background-size: cover;
+}
+
+.top-rated-sec {
+  border-bottom: 1px solid var(--Platinum, #DDE0E3);
+  background: var(--White, #FFF);
+}
+
+.cleaning-sec-bg {
+  border-radius: 140px 40px;
+  background: url(/assets/img/cleaning-service-bg.png), lightgray 50%;
+  background-size: cover;
+  max-height: 840px;
+  height: 840px;
+}
+
+.cleaning-sec-gradient {
+  position: absolute;
+  border-radius: 0px 0px 140px 40px;
+  width: 100%;
+  left: 0px;
+  height: 70%;
+  bottom: -2px;
+  z-index: 11;
+}
+
+.need-cleaning {
+  background: url(/assets/img/need-cleaning-bg.png);
+  background-size: cover;
+}
+
+.need-cleaning-gradient {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  top: 0px;
+  right: 0px;
+}
+
+.quote-text {
+  color: var(--gm-grey, #3C4049);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.environment-well-being {
+  background: url(/assets/img/environment-bg.png);
+  background-size: cover;
+
+}
+
+.environment-gradient {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  height: 100%;
+}
+
+/* ---------------- */
+
+
+.gm-accordion.accordion .accordion-header .accordion-button,
+.gm-accordion.accordion .accordion-header .accordion-button:hover,
+.gm-accordion.accordion .accordion-header .accordion-button:focus {
+  padding: 0px;
+  color: var(--Black, #090C10);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: var(--bs-font-helvetica-serif);
+  padding-top: 32px;
+  padding-bottom: 16px;
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.area-name {
+  margin-top: 24px;
+  border-bottom: 1px solid #DDE0E3;
+  padding-right: 24px;
+}
+
+.newsletter-section {
+  background: url(/assets/img/newsletter-bg.png);
+  background-size: cover;
+}
+
+.newsletter-section.office-cleaning-newsletter {
+  background: url(/assets/img/office-cleaning-newsletter.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.office-cleaning-newsletter-gradient {
+  background: linear-gradient(89deg, #F9F9F9 50.72%, rgba(251, 251, 251, 0.88) 59.89%, rgba(252, 252, 252, 0.70) 67.49%, rgba(255, 255, 255, 0.00) 77.72%);
+  height: 100%;
+  position: absolute;
+  width: 80%;
+  top: 0px;
+  left: 0px;
+}
+
+/* ======= service page ======= */
+
+.service-banner {
+  background: url(/assets/img/service-bg.png);
+  background-size: cover;
+}
+
+.banner-blue-gradient-block {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 80%;
+  top: 0px;
+  background: linear-gradient(90deg, #3D4B64 18.37%, rgba(61, 75, 100, 0.90) 36.2%, rgba(61, 75, 100, 0.70) 51.24%, rgba(61, 75, 100, 0.00) 65.72%, rgba(61, 75, 100, 0.03) 67.3%);
+}
+
+/* =====office cleaning ===== */
+
+.office-cleaning-banner {
+  background: url(/assets/img/office-cleaning.png);
+  background-size: cover;
+}
+
+.green-banner-gradient-block {
+  background: linear-gradient(89deg, #253A2B 0.96%, rgba(33, 65, 58, 0.97) 60.36%, rgba(29, 72, 74, 0.00) 102.41%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 60%;
+  height: 100%;
+}
+
+/* =====office cleaning ===== */
+
+/* ====service page ===== */
+
+.service-shine-sec {
+  background: url(/assets/img/service-shine.png);
+  background-size: cover;
+}
+
+/* ====move-in-out==== */
+
+.move-in-out-banner {
+  background: url(/assets/img/move-in-out-banner.png);
+  background-size: cover;
+}
+
+/* =====green cleaning banner=== */
+
+.green-cleaning-banner {
+  background: url(/assets/img/green-cleaning-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ======air bnb====== */
+
+.airbnb-banner {
+  background: url(/assets/img/airbnb-cleaning.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ====blog-banner===== */
+
+.blog-banner {
+  background-image: url(/assets/img/blog-banner.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.full-green-gradient {
+  background: rgba(10, 33, 8, 0.65);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.blog-card {
+  border-radius: 8px;
+  border: 1px solid rgba(60, 64, 73, 0.05);
+  background: var(--neutral-white, #FFF);
+  box-shadow: 0px 4px 16px 0px rgba(216, 233, 253, 0.25);
+  padding: 24px;
+}
+
+.blog-img {
+  border-radius: 24px 8px;
+  width: 100%;
+}
+
+.banner-content-align {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.blog-detail-img {
+  border-radius: 40px 16px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+.blog-details h5 {
+  color: var(--gm-black, #222);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 40px;
+}
+
+.blog-details p {
+  color: var(--gm-grey, #828282);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+/* =========job banner====== */
+
+.job-banner {
+  background: url(/assets/img/job-banner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.job-content p {
+  color: #575E6E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.job-content p.job-para {
+  margin-top: 40px;
+}
+
+.job-content h6 {
+  color: #575E6E;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 48px;
+}
+
+.job-content p {
+  color: #575E6E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 8px;
+}
+
+/* ========== */
+
+.nav-pills.gm-pills .nav-link {
+  color: var(--gm-black, #1A1D23);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding: 0px;
+}
+
+.nav-pills.gm-pills .nav-link:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.nav-pills.gm-pills .nav-link.active {
+  color: var(--gm-green, #35A128);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  background-color: transparent;
+}
+
+.tab-content.gm-tab-content .accordion-button {
+  color: var(--gm-black, #090C10);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.tab-content.gm-tab-content .accordion-button:focus {
+  box-shadow: none;
+  background: white;
+  outline: none;
+  padding: 0px;
+}
+
+.tab-content.gm-tab-content .accordion-body {
+  padding: 0px;
+  margin-top: 12px;
+}
+
+.tab-content.gm-tab-content .accordion-button.collapsed {
+  padding: 0px;
+}
+
+.tab-content.gm-tab-content .accordion.accordion-flush:not(:first-child) {
+  margin-top: 40px;
+}
+
+.tab-content.gm-tab-content .accordion.accordion-flush {
+  border-bottom: 1px solid var(--devider, #C6C9D2);
+  padding-bottom: 24px;
+}
+
+/* ======privacy policy========= */
+
+.privacy-banner {
+  background: url(/assets/img/privacy-banner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.policy-content h5 {
+  color: var(--gm-black, #090C10);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 40px;
+}
+
+.policy-content p {
+  color: var(--gm-grey, #3C4049);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+/* =======deal promotion banner====== */
+
+.deal-promotion-banner {
+  background: url(/assets/img/deals-promotions.png);
+  background-size: cover;
+  background-position: center;
+}
