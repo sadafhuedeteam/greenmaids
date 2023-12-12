@@ -1,36 +1,36 @@
 @font-face {
     font-family: 'Helvetica Neue Ultralight';
-    src: url('/assets/fonts/HelveticaNeue-Ultralight.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Ultralight.otf') format('opentype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Helvetica Neue Light';
-    src: url('/assets/fonts/HelveticaNeue-Light.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Light.otf') format('opentype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Helvetica Neue Thin';
-    src: url('/assets/fonts/HelveticaNeue-Thin.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Thin.otf') format('opentype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'Helvetica Neue Regular';
-    src: url('/assets/fonts/HelveticaNeue-Regular.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Regular.otf') format('opentype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Helvetica Neue Medium';
-    src: url('/assets/fonts/HelveticaNeue-Medium.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Medium.otf') format('opentype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Helvetica Neue Bold';
-    src: url('/assets/fonts/HelveticaNeue-Bold.otf') format('opentype');
+    src: url('../fonts/HelveticaNeue-Bold.otf') format('opentype');
     font-weight: 700;
 }
 
@@ -392,7 +392,7 @@ p {
         display: inline-block;
         padding-left: 8px;
         padding-top: 4px;
-        content: url(/assets/img/btn-arrow.svg);
+        content: url(../img/btn-arrow.svg);
         -webkit-transition: transform 0.3s ease-out;
         -moz-transition: transform 0.3s ease-out;
         -ms-transition: transform 0.3s ease-out;
@@ -440,7 +440,7 @@ p {
     &::after {
         display: inline-block;
         padding-left: 8px;
-        content: url(/assets/img/green-arrow.svg);
+        content: url(../img/green-arrow.svg);
         -webkit-transition: transform 0.3s ease-out;
         -moz-transition: transform 0.3s ease-out;
         -ms-transition: transform 0.3s ease-out;
@@ -583,7 +583,7 @@ p {
 }
 
 .arrow-list li::before {
-    content: url('/assets/img/arrow-check.svg');
+    content: url('../img/arrow-check.svg');
     display: block;
     position: absolute;
     width: 24px;
