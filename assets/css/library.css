@@ -436,6 +436,7 @@ p {
     padding: 0px;
     color: #35A128;
     position: relative;
+    display: inline-block;
 }
 
 .btn-tertiary:hover,
@@ -622,8 +623,8 @@ p {
     box-shadow: none;
 }
 
-.accordion.faq-accordion .accordion-button:not(.collapsed) {
-    background-color: white;
+.accordion.faq-accordion .accordion-button, .accordion.faq-accordion .accordion-button:not(.collapsed) {
+    background-color: transparent;
 }
 
 .accordion.faq-accordion .accordion-item:not(:first-child) {

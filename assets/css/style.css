@@ -52,7 +52,7 @@
 .environment-well-being {
   background: url(../img/environment-bg.png);
   background-size: cover;
-
+  background-position: right;
 }
 
 .environment-gradient {
