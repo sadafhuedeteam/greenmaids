@@ -121,6 +121,10 @@
         padding-top: 60px;
     }
 
+    .pt-mob-100 {
+        padding-top: 100px;
+    }
+
     .pt-mob-200 {
         padding-top: 200px;
     }
@@ -183,7 +187,6 @@
     }
 
     .banner-height {
-        min-height: 270px;
         height: auto;
     }
 
