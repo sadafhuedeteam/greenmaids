@@ -632,4 +632,9 @@
         line-height: 24px;
     }
 
+    .video-container {
+        width: 100%;
+        height: 400px;
+    }
+
 }

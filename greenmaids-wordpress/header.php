@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <?php wp_head(); ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Maids : Home</title>
@@ -41,8 +42,19 @@
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a href="service.html">Services</a>
+                        <li class="nav-dropdown">
+                            <div class="dropdown-center">
+                                <button class="btn-tertiary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Services
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="service.html">Service</a></li>
+                                  <li><a class="dropdown-item" href="airbnb.html">Airbnb</a></li>
+                                  <li><a class="dropdown-item" href="green-cleaning.html">Green Cleaning</a></li>
+                                  <li><a class="dropdown-item" href="move-in-move-out.html">Move In Move Out</a></li>
+                                  <li><a class="dropdown-item" href="office-cleaning.html">Office Cleaning</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li>
                             <a href="deals-&-promotions.html">Deals</a>

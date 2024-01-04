@@ -42,8 +42,19 @@
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a href="service.html">Services</a>
+                        <li class="nav-dropdown">
+                            <div class="dropdown-center">
+                                <button class="btn-tertiary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Services
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="service.html">Service</a></li>
+                                  <li><a class="dropdown-item" href="airbnb.html">Airbnb</a></li>
+                                  <li><a class="dropdown-item" href="green-cleaning.html">Green Cleaning</a></li>
+                                  <li><a class="dropdown-item" href="move-in-move-out.html">Move In Move Out</a></li>
+                                  <li><a class="dropdown-item" href="office-cleaning.html">Office Cleaning</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li>
                             <a href="deals-&-promotions.html">Deals</a>
@@ -570,11 +581,21 @@
                     you can customize by adding optional<br class="d-none d-lg-block"> services. This allows you to
                     design a cleaning package that
                     suits your specific requirements.</p>
-                <!-- <iframe class="pt-64" style="border-radius: 4px;" width="100%" height="600"
-                    src="https://www.youtube.com/embed/R9wS1UlgYpc?si=4IPpFLUHG78wTQAN" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe> -->
+
+                    <div class="video-container pt-64">
+                        <div class="iframe-cover"></div>
+                        <iframe class="video-iframe d-none d-lg-block" width="900" height="500" src="https://www.youtube.com/embed/PBFY3lhPz9Q?si=5CkZdpPnC0VlzJwY" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen></iframe>
+
+                        <iframe class="video-iframe d-block d-lg-none" width="100" height="400" src="https://www.youtube.com/embed/PBFY3lhPz9Q?si=5CkZdpPnC0VlzJwY" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen></iframe>
+                    </div>
+
+                   
             </div>
 
         </div>
@@ -601,10 +622,11 @@
                 <h4>Beautifully Cleaned </h4>
                 <h2 class="mt-2">Homes this Week</h2>
             </div>
-            <iframe
+            <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212271.67202676387!2d-84.58494078436934!3d33.767257975748166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C%20GA%2C%20USA!5e0!3m2!1sen!2sin!4v1701779335504!5m2!1sen!2sin"
                 width="100%" height="450" class="mt-4" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            <img src="assets/img/points-location.png" class="img-fluid pt-64">
         </div>
     </section>
     <!--map section -->
@@ -692,7 +714,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-2 offset-sm-1">
+                <div class="col-sm-3 offset-sm-2">
                     <p class="gm-white fs-16 mb-4">Main Links</p>
                     <ul class="footer-nav">
                         <li><a href="#">Deals & Promotions</a></li>
@@ -720,21 +742,7 @@
                         <li><a href="#">Apartment cleaning</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
-                    <p class="gm-white fs-16 mb-4">Service Areas</p>
-                    <ul class="footer-nav">
-                        <li><a href="#">Atlanta</a></li>
-                        <li><a href="#">Buckhead</a></li>
-                        <li><a href="#">Brookhaven</a></li>
-                        <li><a href="#">Decatur</a></li>
-                        <li><a href="#">Vinings</a></li>
-                        <li><a href="#">Marietta</a></li>
-                        <li><a href="#">Norcross</a></li>
-                        <li><a href="#">Sandy Springs</a></li>
-                        <li><a href="#">North Druid Hills</a></li>
-                       
-                    </ul>
-                </div>
+               
             </div>
             <p class="text-center gm-platinum fs-12 pt-120">Copyright © 2023 Green Maids, All rights are reserved</p>
         </div>

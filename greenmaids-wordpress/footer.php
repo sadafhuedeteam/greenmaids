@@ -69,7 +69,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-2 offset-sm-1">
+                <div class="col-sm-3 offset-sm-2">
                     <p class="gm-white fs-16 mb-4">Main Links</p>
                     <ul class="footer-nav">
                         <li><a href="#">Deals & Promotions</a></li>
@@ -95,21 +95,6 @@
                         <li><a href="#">Green Cleaning</a></li>
                         <li><a href="#">Airbnb Cleaning</a></li>
                         <li><a href="#">Apartment cleaning</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <p class="gm-white fs-16 mb-4">Service Areas</p>
-                    <ul class="footer-nav">
-                        <li><a href="#">Atlanta</a></li>
-                        <li><a href="#">Buckhead</a></li>
-                        <li><a href="#">Brookhaven</a></li>
-                        <li><a href="#">Decatur</a></li>
-                        <li><a href="#">Vinings</a></li>
-                        <li><a href="#">Marietta</a></li>
-                        <li><a href="#">Norcross</a></li>
-                        <li><a href="#">Sandy Springs</a></li>
-                        <li><a href="#">North Druid Hills</a></li>
-                       
                     </ul>
                 </div>
             </div>
@@ -214,7 +199,7 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-3.7.0.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/custom.js"></script>
-    
+    <?php wp_footer(); ?>
 
 </body>
 </html>
